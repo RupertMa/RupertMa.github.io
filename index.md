@@ -1,20 +1,32 @@
 ---
 layout: default
 ---
-
+<!-- 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
 
 There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project. -->
 
-# Header 1
+# Reading List | 阅读清单
+## Done
+[Rajaraman, Anand, and Jeffrey David Ullman. Mining of massive datasets. Cambridge University Press, 2011.](https://dl.acm.org/doi/book/10.5555/2124405)
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+[Harrington, Peter. Machine learning in action. Manning Publications Co., 2012.](https://dl.acm.org/doi/book/10.5555/2361796)
 
-## Header 2
+[Karau, Holden, Andy Konwinski, Patrick Wendell, and Matei Zaharia. Learning spark: lightning-fast big data analysis. " O'Reilly Media, Inc.", 2015.](https://books.google.com/books?hl=en&lr=&id=2eptBgAAQBAJ&oi=fnd&pg=PP1&dq=Learning+Spark:+Lightning-Fast+Big+Data+Analysis&ots=oTxCqj3qGU&sig=KSFlHr6vicDzkTJ_INJ0j5d_o_g#v=onepage&q=Learning%20Spark%3A%20Lightning-Fast%20Big%20Data%20Analysis&f=false)
+
+[Ryza, Sandy, Uri Laserson, Sean Owen, and Josh Wills. Advanced analytics with spark: patterns for learning from data at scale. " O'Reilly Media, Inc.", 2017.](https://books.google.com/books?hl=en&lr=&id=NJwnDwAAQBAJ&oi=fnd&pg=PR2&dq=Advanced+Analytics+with+Spark:+Patterns+for+Learning+from+Data+at+Scale&ots=fcCCIamjYd&sig=fBchONGD3r_KX6NX6zlK9zmXnys#v=onepage&q=Advanced%20Analytics%20with%20Spark%3A%20Patterns%20for%20Learning%20from%20Data%20at%20Scale&f=false)
+
+## To-do
+[Benedict, Ruth. The chrysanthemum and the sword: Patterns of Japanese culture. Houghton Mifflin Harcourt, 2005.](https://books.google.com/books?hl=en&lr=&id=R7NpvfYsmU0C&oi=fnd&pg=PR6&dq=The+Chrysanthemum+and+the+Sword&ots=TenHucZvWs&sig=J_OyIZLhtLN_OOCYD7dL-_bFqY0#v=onepage&q=The%20Chrysanthemum%20and%20the%20Sword&f=false)
+
+[Márquez, Gabriel García. Love in the Time of Cholera. Vol. 235. Everyman's Library, 1997.](https://books.google.com/books?hl=en&lr=&id=iNuEDwAAQBAJ&oi=fnd&pg=PA7&dq=Love+in+the+Time+of+Cholera&ots=NN9G5PIf8_&sig=KbpiBvkKdqiwqDGCRRCfdC6_yik#v=onepage&q=Love%20in%20the%20Time%20of%20Cholera&f=false)
+
+
+<!-- ## Header 2
 
 > This is a blockquote following a header.
 >
@@ -121,3 +133,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
+ -->
