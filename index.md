@@ -26,6 +26,23 @@ There should be whitespace between paragraphs. We recommend including a README, 
 [Márquez, Gabriel García. Love in the Time of Cholera. Vol. 235. Everyman's Library, 1997.](https://books.google.com/books?hl=en&lr=&id=iNuEDwAAQBAJ&oi=fnd&pg=PA7&dq=Love+in+the+Time+of+Cholera&ots=NN9G5PIf8_&sig=KbpiBvkKdqiwqDGCRRCfdC6_yik#v=onepage&q=Love%20in%20the%20Time%20of%20Cholera&f=false)
 
 
+
+# [R notes](./R-notes.md).
+
+<!-- ```R
+// Javascript code with syntax highlighting.
+var fun = function lang(l) {
+  dateformat.i18n = require('./lang/' + l)
+  return true;
+}
+```
+
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+``` -->
 <!-- ## Header 2
 
 > This is a blockquote following a header.
