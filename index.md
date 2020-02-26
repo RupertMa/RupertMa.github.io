@@ -26,9 +26,9 @@ There should be whitespace between paragraphs. We recommend including a README, 
 [Márquez, Gabriel García. Love in the Time of Cholera. Vol. 235. Everyman's Library, 1997.](https://books.google.com/books?hl=en&lr=&id=iNuEDwAAQBAJ&oi=fnd&pg=PA7&dq=Love+in+the+Time+of+Cholera&ots=NN9G5PIf8_&sig=KbpiBvkKdqiwqDGCRRCfdC6_yik#v=onepage&q=Love%20in%20the%20Time%20of%20Cholera&f=false)
 
 
-# [Python tutorials | Python阅读材料](./Python-notes.md)
+# [Python tutorials | Python阅读材料](./Python-notes.html)
 
-# [R notes | R语言笔记](./R-notes.md)
+# [R notes | R语言笔记](./R-notes.html)
 
 <!-- ```R
 // Javascript code with syntax highlighting.
