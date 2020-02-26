@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 ---
 
 # R notes | R语言笔记
@@ -13,7 +13,7 @@ tab_l = data.table(a= list(1,2,3,4),
                  c= c('2018-01-01','2018-01-01','2018-01-01','2018-01-01'))
 ```
 
-The second one makes tab$a a compound object and then some operations don't work on it. See examples below:
+The second one makes tab_l$a a compound object and then some operations don't work on it. See examples below:
 
 ```R
 tab[, ':=' (d = mean(a),
