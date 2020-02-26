@@ -27,7 +27,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 
 
-# [R notes](./R-notes.md).
+# [R notes | R语言笔记](./R-notes.md)
 
 <!-- ```R
 // Javascript code with syntax highlighting.

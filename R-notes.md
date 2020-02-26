@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# R notes
+# R notes | R语言笔记
 ## data.table
 ```R
 tab = data.table(a= c(1,2,3,4),
