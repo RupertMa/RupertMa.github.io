@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: new_post
 ---
 
 # R notes | R语言笔记

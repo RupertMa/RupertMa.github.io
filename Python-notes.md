@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: new_post
 ---
 
 # Python tutorials | Python阅读材料
