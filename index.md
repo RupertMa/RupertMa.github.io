@@ -30,6 +30,8 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # [R notes | R语言笔记]({% link R-notes.md %})
 
+# [Linux command use cases | Linux命令行用例  ]({% link Linux-notes.md %})
+
 <!-- ```R
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
