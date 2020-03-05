@@ -367,13 +367,27 @@ summary {
 
 <div id="linux-command-use-cases-linux命令行用例" class="section level1">
 <h1>Linux command use cases | Linux命令行用例</h1>
-<ol style="list-style-type: decimal">
-<li>Create a background session, run jobs and logs the output. Could be very useful when running Hadoop jobs:</li>
-</ol>
+<div id="create-a-background-session-run-jobs-and-logs-the-output.-could-be-very-useful-when-running-hadoop-jobs" class="section level4">
+<h4>1. Create a background session, run jobs and logs the output. Could be very useful when running Hadoop jobs:</h4>
 <pre class="bash"><code>screen -LS &lt;screen_name&gt; # Create a screen, give it a name and enable automatic loggings
 cd dir # Change directory to where you want to run your job </code></pre>
 <p>Ctrl+A and Ctrl+D to exit the screen. Let it run in the background. When you start a screen that way, it will create a screenlog.0 file. Note that you can’t scroll when you’re in a screen so you’ll need to exit and view the log file.</p>
 <p>You can re-enter the screen with <em>screen -r screen name</em> and can see a list of available screens with <em>screen -ls</em></p>
+</div>
+<div id="file-permissions-for-unix-like-operating-systems" class="section level4">
+<h4>2. File Permissions for Unix-like operating systems</h4>
+<p>When you input <code>ls -l .</code> you will see something like</p>
+<pre class="bash"><code>drwxr-xr-x 2 root root     4096 Mar  5 16:09 post
+-rw------- 1 root root  1792614 Mar  5 23:13 nohup.out</code></pre>
+<p>The first column shows the permission settings for a file or a directory.<br />
+1. The 1st character could be -/d. “-” indicates regular file and d indicates directory.<br />
+2. The 2nd to 4th characters indicates and <strong>r</strong>ead, <strong>w</strong>rite and e<strong>x</strong>ecute permissions for the file owner.<br />
+3. The 5th to 7th characters indicates and <strong>r</strong>ead, <strong>w</strong>rite and e<strong>x</strong>ecute permissions for the group owner of the file.<br />
+4. The 8th to 10th characters indicates and <strong>r</strong>ead, <strong>w</strong>rite and e<strong>x</strong>ecute permissions for all other users.</p>
+<p>The thrid column shows the the owner of the file, which is root in the example above.</p>
+<p>The forth column shows the the group owner of the file, which is root in the example above. Group owners are a group of related users.</p>
+<p><em>For other useful file permission commands, like <code>chmod</code>, <code>su</code>, <code>sudo</code>, <code>chown</code>,<code>chgrp</code>, please refer to <a href="http://linuxcommand.org/lc3_lts0090.php">Permissions</a> </em></p>
+</div>
 </div>
 
 
