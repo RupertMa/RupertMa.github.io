@@ -12,7 +12,7 @@ cd dir # Change directory to where you want to run your job
 ```
 Ctrl+A and Ctrl+D to exit the screen. Let it run in the background. When you start a screen that way, it will create a screenlog.0 file. Note that you can’t scroll when you’re in a screen so you’ll need to exit and view the log file.  
 
-You can re-enter the screen with *screen -r screen name* and can see a list of available screens with *screen -ls*  
+You can re-enter the screen with `screen -r screen name` and can see a list of available screens with `screen -ls`  
 
 
 
