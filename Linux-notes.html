@@ -372,7 +372,7 @@ summary {
 <pre class="bash"><code>screen -LS &lt;screen_name&gt; # Create a screen, give it a name and enable automatic loggings
 cd dir # Change directory to where you want to run your job </code></pre>
 <p>Ctrl+A and Ctrl+D to exit the screen. Let it run in the background. When you start a screen that way, it will create a screenlog.0 file. Note that you can’t scroll when you’re in a screen so you’ll need to exit and view the log file.</p>
-<p>You can re-enter the screen with <em>screen -r screen name</em> and can see a list of available screens with <em>screen -ls</em></p>
+<p>You can re-enter the screen with <code>screen -r screen name</code> and can see a list of available screens with <code>screen -ls</code></p>
 </div>
 <div id="file-permissions-for-unix-like-operating-systems" class="section level4">
 <h4>2. File Permissions for Unix-like operating systems</h4>
@@ -387,6 +387,32 @@ cd dir # Change directory to where you want to run your job </code></pre>
 <p>The thrid column shows the the owner of the file, which is root in the example above.</p>
 <p>The forth column shows the the group owner of the file, which is root in the example above. Group owners are a group of related users.</p>
 <p><em>For other useful file permission commands, like <code>chmod</code>, <code>su</code>, <code>sudo</code>, <code>chown</code>,<code>chgrp</code>, please refer to <a href="http://linuxcommand.org/lc3_lts0090.php">Permissions</a> </em></p>
+</div>
+<div id="schedule-jobs-using-crontab-command" class="section level4">
+<h4>3. Schedule jobs using crontab command</h4>
+<p>To shedule a job, <code>cd</code> to /var/spool/cron directory and input <code>crontab -e</code> to edit a cron file.</p>
+<p>Several examples of using crontab command below</p>
+<pre class="bash"><code># crontab -e
+SHELL=/bin/bash
+MAILTO=root@example.com
+PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+
+# For details see man 4 crontabs
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name  command to be executed
+
+# This means appending the text to text.txt at 1:01 am everyday
+01 01 * * * echo &quot;this is a test file.&quot; &gt;&gt; test.txt
+
+# This means appending the text to another_text.txt at 1:01 am every Friday
+01 01 * * 5 echo &quot;this is another test file.&quot; &gt;&gt; another_test.txt</code></pre>
 </div>
 </div>
 

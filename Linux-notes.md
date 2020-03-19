@@ -35,3 +35,33 @@ The thrid column shows the the owner of the file, which is root in the example a
 The forth column shows the the group owner of the file, which is root in the example above. Group owners are a group of related users.
 
 *For other useful file permission commands, like `chmod`, `su`, `sudo`, `chown`,`chgrp`, please refer to [Permissions](http://linuxcommand.org/lc3_lts0090.php) *
+
+
+#### 3. Schedule jobs using crontab command
+
+To shedule jobs, `cd` to /var/spool/cron directory and input `crontab -e` to edit a cron file.  
+
+Several examples of using crontab command below
+```bash
+# crontab -e
+SHELL=/bin/bash
+MAILTO=root@example.com
+PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
+
+# For details see man 4 crontabs
+
+# Example of job definition:
+# .---------------- minute (0 - 59)
+# |  .------------- hour (0 - 23)
+# |  |  .---------- day of month (1 - 31)
+# |  |  |  .------- month (1 - 12) OR jan,feb,mar,apr ...
+# |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
+# |  |  |  |  |
+# *  *  *  *  * user-name  command to be executed
+
+# This means appending the text to text.txt at 1:01 am everyday
+01 01 * * * echo "this is a test file." >> test.txt
+
+# This means appending the text to another_text.txt at 1:01 am every Friday
+01 01 * * 5 echo "this is another test file." >> another_test.txt
+``` 
