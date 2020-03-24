@@ -34,6 +34,8 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # [Linux command use cases | Linux命令行用例  ]({% link Linux-notes.md %})
 
+# [Practical stastisic test | 实用统计检验  ]({% link Practical-statistic-test.md %})
+
 <!-- ```R
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
