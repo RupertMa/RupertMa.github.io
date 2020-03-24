@@ -34,7 +34,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 # [Linux command use cases | Linux命令行用例  ](./Linux-notes.md)
 
-# [Practical stastisic test | 实用统计检验  ](./Practical-statistic-test.md)
+# [Practical stastisic test | 实用统计检验  ](./Practical-stastisic-test.md)
 
 <!-- ```R
 // Javascript code with syntax highlighting.
