@@ -28,13 +28,13 @@ There should be whitespace between paragraphs. We recommend including a README, 
 [Keyes, Daniel. Flowers for Algernon. Houghton Mifflin Harcourt, 2007.](https://books.google.com/books/about/Flowers_for_Algernon.html?id=_oG_iTxP1pIC)
 
 
-# [Python tutorials | Python阅读材料]({% link Python-notes.md %})
+# [Python tutorials | Python阅读材料](./Python-notes.md)
 
-# [R notes | R语言笔记]({% link R-notes.md %})
+# [R notes | R语言笔记](./R-notes.md)
 
-# [Linux command use cases | Linux命令行用例  ]({% link Linux-notes.md %})
+# [Linux command use cases | Linux命令行用例  ](./Linux-notes.md)
 
-# [Practical stastisic test | 实用统计检验  ]({% link Practical-statistic-test.md %})
+# [Practical stastisic test | 实用统计检验  ](./Practical-statistic-test.md)
 
 <!-- ```R
 // Javascript code with syntax highlighting.
