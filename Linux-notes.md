@@ -4,7 +4,7 @@ layout: post
 
 # Linux command use cases | Linux命令行用例  
 
-#### 1.	Create a background session, run jobs and logs the output. Could be very useful when running Hadoop jobs:
+#### 1.    Create a background session, run jobs and logs the output. Could be very useful when running Hadoop jobs:
 
 ```bash
 screen -LS <screen_name> # Create a screen, give it a name and enable automatic loggings
@@ -71,6 +71,9 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 To perfom this simple calculation, you can use `awk` to do the job. One example is shown below.  
 
 ```bash
-cat ./data/count.txt | awk '{if(min==""){min=max=$1}; if($1>max) {max=$1}; if($1<min) {min=$1}; total+=$1; count+=1} END {print total, count, max, min}'
+cat ./data/count.txt | awk '{if(min==""){min=max=$1}; 
+                             if($1>max) {max=$1}; 
+                             if($1<min) {min=$1}; 
+                             total+=$1; count+=1} END {print total, count, max, min}'
 ```
 
