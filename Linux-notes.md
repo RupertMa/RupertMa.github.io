@@ -65,3 +65,12 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 # This means appending the text to another_text.txt at 1:01 am every Friday
 01 01 * * 5 echo "this is another test file." >> another_test.txt
 ``` 
+
+#### 3. Get the min, max, count, sum of a column in a file
+
+To perfom this simple calculation, you can use `awk` to do the job. One example is shown below.  
+
+```bash
+cat ./data/count.txt | awk '{if(min==""){min=max=$1}; if($1>max) {max=$1}; if($1<min) {min=$1}; total+=$1; count+=1} END {print total, count, max, min}'
+```
+
