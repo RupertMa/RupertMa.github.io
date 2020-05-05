@@ -66,7 +66,7 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 01 01 * * 5 echo "this is another test file." >> another_test.txt
 ``` 
 
-#### 3. Get the min, max, count, sum of a column in a file
+#### 4. Get the min, max, count, sum of a column in a file
 
 To perfom this simple calculation, you can use `awk` to do the job. One example is shown below.  
 
