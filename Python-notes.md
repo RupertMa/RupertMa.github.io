@@ -31,6 +31,26 @@ x >> y # The same as x // 2**y
 8 >> 2 + 2 # The result is 0 rather than 4
 ```
 
+3. Compare complex python object per your needs:  
+A litter trick to make your life easier.  
+```python
+# Let's say you have a complex object like ListNode and you want to sort a list of them by their values
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+a = ListNode(-100)
+b = ListNode()
+a.next = b
+print(a > b) # This will give you True
+
+ListNode.__lt__ = lambda x, y : x.val < y.val # This line could be changed as per your needs.
+print(a > b) # This will give you False
+```
+[More readings about Python operator](https://docs.python.org/3.7/library/operator.html)
+
+
 ### PEP8 Summary:
 1. Imports  
 
