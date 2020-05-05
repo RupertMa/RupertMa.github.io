@@ -44,7 +44,7 @@ You should put a blank line between each group of imports.
 
 ```python
 import re
-import loggings
+import logging
 
 import pandas as pd
 
