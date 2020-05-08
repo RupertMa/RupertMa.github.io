@@ -47,7 +47,7 @@ print(a > b) # This will give you True
 
 ListNode.__lt__ = lambda x, y : x.val < y.val # This line could be changed as per your needs.
 print(a > b) # This will give you False
-```
+```  
 [More readings about Python operator](https://docs.python.org/3.7/library/operator.html)
 
 
