@@ -8,7 +8,7 @@ layout: post
 
 [Python super function](https://realpython.com/python-super/)
 
-[Python @property](https://www.programiz.com/python-programming/property)
+[Python \@property](https://www.programiz.com/python-programming/property)
 
 [Python try, except, else, finally](http://tutors.ics.uci.edu/index.php/79-python-resources/104-try-except)
 
@@ -35,6 +35,7 @@ x >> y # The same as x // 2**y
 
 3. Compare complex python object per your needs:  
 A litter trick to make your life easier.  
+
 ```python
 # Let's say you have a complex object like ListNode and you want to sort a list of them by their values
 class ListNode:
