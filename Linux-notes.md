@@ -92,7 +92,8 @@ Say you want to summarize the data by datestamp, appName and see how many device
 Then the following command can help you get it done very fast.  
 
 ```bash
-cat <(echo -e "datestamp\tappName\tdeviceCount") <(tail -n +2  ./appUsage.tsv | awk -F '\t' '{a[$1"\t"$2] += $4} END {for (i in a) print i"\t"a[i]}') >  ./appUsageAgged.tsv
+cat <(echo -e "datestamp\tappName\tdeviceCount") <(tail -n +2  ./appUsage.tsv | 
+	  awk -F '\t' '{a[$1"\t"$2] += $4} END {for (i in a) print i"\t"a[i]}') >  ./appUsageAgged.tsv
 ```
 This should give you:  
 
