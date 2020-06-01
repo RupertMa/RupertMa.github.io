@@ -77,3 +77,29 @@ cat ./data/count.txt | awk '{if(min==""){min=max=$1};
                              total+=$1; count+=1} END {print total, count, max, min}'
 ```
 
+#### 5. Sum data by multiple columns using `awk`
+
+Imagine you have a file named appUsage.tsv like this:
+
+| datestamp  | appName  | activationTimes | deviceCount |  
+| ---------- | -------  | --------------- | ----------- |  
+| 2020-01-01 | Messages | 3               | 4           |  
+| 2020-01-01 | Messages | 5               | 8           |  
+| 2020-01-02 | Messages | 2               | 4           |  
+| 2020-01-02 | Messages | 3               | 4           |
+
+Say you want to summarize the data by datestamp, appName and see how many devices used the app each day.  
+Then the following command can help you get it done very fast.  
+
+```bash
+cat <(echo -e "datestamp\tappName\tdeviceCount") <(tail -n +2  ./appUsage.tsv | awk -F '\t' '{a[$1"\t"$2] += $4} END {for (i in a) print i"\t"a[i]}') >  ./appUsageAgged.tsv
+```
+This should give you:  
+
+| datestamp  | appName  | deviceCount |  
+| ---------- | -------  | ----------- |  
+| 2020-01-01 | Messages | 12          |  
+| 2020-01-02 | Messages | 8           |  
+
+
+

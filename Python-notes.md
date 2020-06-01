@@ -10,6 +10,8 @@ layout: post
 
 [Python @property](https://www.programiz.com/python-programming/property)
 
+[Python try, except, else, finally](http://tutors.ics.uci.edu/index.php/79-python-resources/104-try-except)
+
 ### Handy python commands:
 1. Get the second field of a tab separated file and review the structure of the sample json file
 ```json
