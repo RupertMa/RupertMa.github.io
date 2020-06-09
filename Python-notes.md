@@ -53,7 +53,7 @@ print(a > b) # This will give you False
 ```  
 [More readings about Python operator](https://docs.python.org/3.7/library/operator.html)
 
-4. dict method  
+4. dict method
 ```python
 # Creates a new dictionary with keys from seq and values set to value
 seq = ['strawberry', 'orange', 'watermelon']
