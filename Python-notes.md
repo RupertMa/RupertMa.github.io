@@ -8,7 +8,7 @@ layout: post
 
 [Python super function](https://realpython.com/python-super/)
 
-[Python \@property](https://www.programiz.com/python-programming/property)
+[Python @property](https://www.programiz.com/python-programming/property)
 
 [Python try, except, else, finally](http://tutors.ics.uci.edu/index.php/79-python-resources/104-try-except)
 
@@ -52,6 +52,14 @@ ListNode.__lt__ = lambda x, y : x.val < y.val # This line could be changed as pe
 print(a > b) # This will give you False
 ```  
 [More readings about Python operator](https://docs.python.org/3.7/library/operator.html)
+
+4. dict method  
+```python
+# Creates a new dictionary with keys from seq and values set to value
+seq = ['strawberry', 'orange', 'watermelon']
+value = 0
+counter= dict.fromkeys(seq, 0)
+```
 
 
 ### PEP8 Summary:
