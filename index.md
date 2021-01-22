@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<!-- 
+<!--
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
@@ -26,6 +26,8 @@ There should be whitespace between paragraphs. We recommend including a README, 
 [Márquez, Gabriel García. Love in the Time of Cholera. Vol. 235. Everyman's Library, 1997.](https://books.google.com/books?hl=en&lr=&id=iNuEDwAAQBAJ&oi=fnd&pg=PA7&dq=Love+in+the+Time+of+Cholera&ots=NN9G5PIf8_&sig=KbpiBvkKdqiwqDGCRRCfdC6_yik#v=onepage&q=Love%20in%20the%20Time%20of%20Cholera&f=false)
 
 [Keyes, Daniel. Flowers for Algernon. Houghton Mifflin Harcourt, 2007.](https://books.google.com/books/about/Flowers_for_Algernon.html?id=_oG_iTxP1pIC)
+
+[Thanks for the Feedback: The Science and Art of Receiving Feedback Well](https://books.google.com/books?id=bWw2AAAAQBAJ)
 
 
 # [Python tutorials | Python阅读材料](./Python-notes.md)
